@@ -1,6 +1,8 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.mcit.ica.icasampleapp",
@@ -12,7 +14,21 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thalesgroup.dis.ibs.did.ica.icasampleapp",
+      "sha256_cert_fingerprints": [
+        "F2:CD:00:B7:1A:D8:B9:A0:FF:7A:4F:13:B8:63:0F:75:77:B2:0E:7E:7B:97:1B:4D:8B:0D:66:3E:77:6D:C6:DD"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.thalesgroup.dis.ibs.did.ica.icasampleapp",
@@ -22,5 +38,3 @@
     }
   }
 ]
-
-
